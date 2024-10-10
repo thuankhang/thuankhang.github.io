@@ -22,10 +22,14 @@ GEM
     faraday-retry (2.2.1)
       faraday (~> 2.0)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
     ffi (1.17.0-x86_64-linux-musl)
     forwardable-extended (2.6.0)
     google-protobuf (4.28.2-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.2-x86_64-darwin)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.28.2-x86_64-linux)
@@ -145,4 +149,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.5.15
+   2.5.21
