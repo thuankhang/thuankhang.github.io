@@ -17,7 +17,7 @@ urls:
   #  - text: Gallery
   #   url: /gallery
    - text: Project #Change shop to project
-     url : /shop
+     url : /project
   #  - text: Contact
   #    url : /contact
 
