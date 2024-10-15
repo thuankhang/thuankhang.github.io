@@ -12,7 +12,6 @@ urls:
       url: /
     - text: About
       url: /about
-<<<<<<< HEAD
   #   - text: Blog 
   #     url: /blog
   #  - text: Gallery
@@ -21,7 +20,6 @@ urls:
      url : /project
   #  - text: Contact
   #    url : /contact
-=======
     - text: Project #Change blog to project
       url: /project
 #    - text: Gallery
@@ -30,8 +28,6 @@ urls:
 #      url : /shop
 #    - text: Contact
 #      url : /contact
->>>>>>> parent of 1704d97 (Fix project url)
-
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
