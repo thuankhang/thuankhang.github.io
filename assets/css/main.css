@@ -4964,7 +4964,7 @@ a img {
 }
 
 svg {
-    display: block;
+    display: inline-block;
 }
 
 .down .icon:active,
