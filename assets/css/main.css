@@ -4963,15 +4963,6 @@ a img {
     animation: pulse 1.3s infinite
 }
 
-  
-  svg {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    height: 100px;
-  }
-
 .down .icon:active,
 .down .icon:hover,
 .footer a:active,
