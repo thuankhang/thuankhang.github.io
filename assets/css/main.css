@@ -4965,7 +4965,6 @@ a img {
 
 svg {
     all: unset; /* Resets inherited and global styles */
-    display: inline; /* Default SVG display behavior */
   }
 
 .down .icon:active,
