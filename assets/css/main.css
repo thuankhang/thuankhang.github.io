@@ -4963,10 +4963,6 @@ a img {
     animation: pulse 1.3s infinite
 }
 
-svg {
-    all: unset; /* Resets inherited and global styles */
-  }
-
 .down .icon:active,
 .down .icon:hover,
 .footer a:active,
