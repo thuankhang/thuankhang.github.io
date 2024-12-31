@@ -4964,9 +4964,7 @@ a img {
 }
 
 .svg-container {
-    position: relative; /* Set the parent container to relative */
-    width: 100%; /* Optional: Set the container's width */
-    height: 100vh; /* Optional: Set the container's height */
+    position: relative;
   }
   
   svg {
