@@ -4963,6 +4963,13 @@ a img {
     animation: pulse 1.3s infinite
 }
 
+
+.down .icon:active,
+.down .icon:hover,
+.footer a:active,
+.footer a:hover {
+    color: #4b5664
+}
 .svg-container {
     position: relative;
 }
@@ -4976,12 +4983,11 @@ svg {
     height: 100px;
 }
 
-.down .icon:active,
-.down .icon:hover,
-.footer a:active,
-.footer a:hover {
-    color: #4b5664
-}
+.svg-container:active,
+.svg-container:hover,
+svg:active,
+svg:hover,
+
 
 #about {
     width: 90%;
