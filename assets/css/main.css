@@ -4963,6 +4963,9 @@ a img {
     animation: pulse 1.3s infinite
 }
 
+.svg-container {
+    all: unset; /* Resets inherited and global styles */
+}
 svg {
     all: unset; /* Resets inherited and global styles */
     display: inline; /* Default SVG display behavior */
