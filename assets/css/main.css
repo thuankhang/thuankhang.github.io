@@ -4963,12 +4963,8 @@ a img {
     animation: pulse 1.3s infinite
 }
 
-.svg-container {
-    position: relative;
-  }
   
   svg {
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
