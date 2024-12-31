@@ -4963,30 +4963,12 @@ a img {
     animation: pulse 1.3s infinite
 }
 
-
 .down .icon:active,
 .down .icon:hover,
 .footer a:active,
 .footer a:hover {
     color: #4b5664
 }
-.svg-container {
-    position: relative;
-}
-  
-svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    height: 100px;
-}
-
-.svg-container:active,
-.svg-container:hover,
-svg:active,
-svg:hover,
 
 
 #about {
