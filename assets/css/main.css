@@ -4984,7 +4984,12 @@ a img {
 }
 
 .tech {
-    margin: 10px
+    margin: 10px;
+    width: 25%;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 10px; /* Space between elements */
 }
 
 .user {
@@ -5012,10 +5017,32 @@ a img {
     margin: 5px auto
 }
 
+/* Styling the search box */
+#searchInput {
+    width: 100%; /* Make it responsive, filling the available space */
+    max-width: 600px; /* Set a maximum width */
+    padding: 10px; /* Add padding inside the input */
+    margin: 20px 0; /* Add space around the input */
+    font-size: 16px; /* Adjust the font size for better readability */
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+/* When the search box is focused, change border and shadow */
+#searchInput:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    box-shadow: 0 2px 10px rgba(0, 123, 255, 0.3); /* Blue shadow */
+    outline: none; /* Remove the default outline */
+}
+
+
 #projects {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center; 
     width: 90%;
     max-width: 960px;
     margin: 0 auto
