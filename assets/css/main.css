@@ -4996,6 +4996,7 @@ a img {
     text-align: center;
     font-size: 60px;
     display: flex;
+    display: -webkit-flex;  /* Add prefix for Safari */
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
