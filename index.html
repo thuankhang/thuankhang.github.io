@@ -202,8 +202,45 @@
       <!-- The Search Box -->
       <input type="text" id="searchInput" placeholder="Search by name, category, or tools..." onkeyup="searchProjects()">
 
+      <!-- Group Project #1: Air Quality -->
+      <div class="user-projects" data-category="Data Analysis, Data Science, Group Project" data-tools="R, GitHub">
+        <div class="images-left">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/pollutant_vs_sensor_environment.webp" alt="Air Quality Analysis" />
+            <img alt="Air Quality analysis" src="./assets/img/jpg/pollutant_vs_sensor_environment.jpg" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Cyclistic bike share analysis</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/r.svg"
+              style="filter: invert(40%) sepia(60%) saturate(500%) hue-rotate(190deg) brightness(100%) contrast(90%)"
+              alt="R"
+            />
+            &nbsp;
+            <img 
+              height="32" 
+              width="32" 
+              src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" 
+              alt="github"
+            />
+          </div>
+          <p style="text-align: justify">
+            This project analyzes the UCI Air Quality Dataset, which contains hourly air pollution and weather data from Rome, 
+            Italy (March 2004–February 2005). The goal is to explore relationships between pollutants, sensor responses, and 
+            environmental factors, and to build predictive models for pollutant concentrations. My part is the III in Final Report: 
+            Correlation Analysis and Air Quality Index (AQI), and 2. Correlation and Sensor Calibration, 
+          </p>
+          <h3>Date release: Apr 5, 2025</h3>
+          <a class="project-link" target="_blank" href="https://github.com/felixxvo7/Air-Quality-Analysis-Project/tree/main">Check it out!</a>
+        </div>
+      </div>
+
       <!-- User Project #2: Cyclistic bike share analysis-->
-      <div class="user-projects" data-category="Data Analysis, CaseStudy" data-tools="R, SQL, GitHub">
+      <!-- <div class="user-projects" data-category="Data Analysis, CaseStudy" data-tools="R, SQL, GitHub">
         <div class="images-left">
           <picture>
             <source type="image/webp" srcset="./assets/img/webp/cyclistic-bikeshare.webp" alt="Cyclistic bike share analysis" />
@@ -244,7 +281,7 @@
           <h3>Date release: In progress</h3>
           <a class="project-link" target="_blank" href="https://thuankhang.github.io/casestudy-cyclistic-bike-share/">Check it out!</a>
         </div>
-      </div>
+      </div> -->
 
       <!-- User Project #1: San Francisco bike share network -->
       <div class="user-projects" data-category="Data Analysis" data-tools="R, GitHub, igraph, ggplot2, geodata, sf">
@@ -284,7 +321,7 @@
             Monday 6 July 2015 to Sunday 12 July 2015 across five cities in the San Francisco Bay Area, evaluating the 
             evolution of the bike share network.
           </p>
-          <h3>Date release: Dec 30 2024</h3>
+          <h3>Date release: Dec 30, 2024</h3>
           <a class="project-link" target="_blank" href="https://thuankhang.github.io/casestudy-sf-bikeshare/">Check it out!</a>
         </div>
       </div>
